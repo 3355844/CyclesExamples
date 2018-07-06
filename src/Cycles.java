@@ -21,4 +21,20 @@ public class Cycles {
         } while (i <= 10);//true
 
     }
+
+    public void forCycle(int i) {
+
+        for (int j = 1; j <= 100; j += 20) {
+            i *= j;
+            System.out.println("I value: " + i);
+        }
+        System.out.println(i);
+
+        int [] arr = {11,23,35,84,5,6,7,8,9,10};
+        System.out.println("ForEach");
+        for (int k : arr) {
+            System.out.println(k);
+        }
+
+    }
 }
