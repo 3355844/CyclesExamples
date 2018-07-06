@@ -1,4 +1,5 @@
 public class Cycles {
+
     public void whileCycle(int i) {
         System.out.println("While cycle");
         while (i <= 10) {// true
@@ -23,18 +24,21 @@ public class Cycles {
     }
 
     public void forCycle(int i) {
-
+//      fori
         for (int j = 1; j <= 100; j += 20) {
             i *= j;
             System.out.println("I value: " + i);
         }
         System.out.println(i);
 
-        int [] arr = {11,23,35,84,5,6,7,8,9,10};
+        int[] arr = {11, 23, 84, 5, 6, 7, 8, 9, 10, 20};
         System.out.println("ForEach");
+//       iter
+        int n = 1;
         for (int k : arr) {
-            System.out.println(k);
+                System.out.println(k);
         }
+        System.out.println("Index = " + n);
 
     }
 }
